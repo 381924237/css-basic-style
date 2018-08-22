@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>css basic style3</title>
+</head>
+<style>
+  .container{
+    width: 600px;
+    margin: 0 auto;
+    font-family: arial;
+  }
+  .table{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  .table th,td{
+    padding: 8px;
+  }
+  .one{
+    border: 1px solid #ccc;
+  }
+  .one tr{
+    border-bottom: 1px solid #ccc;
+  }
+  .two tr{
+    border-bottom: 1px solid #ddd; 
+  }
+  tbody tr:nth-child(2n+1){
+    background-color: #f1f1f1;
+  }
+  .one thead{
+    background-color: #4caf50;
+    color: #fff;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <table class="table one">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>Adam</td>
+          <td>Johnson</td>
+          <td>67</td>
+        </tr>
+        <tr>
+          <td>Bo</td>
+          <td>Nilsson</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Mike</td>
+          <td>Ross</td>
+          <td>35</td>
+        </tr>  
+      </tbody>  
+    </table>
+
+    <table class="table two">
+      <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>Adam</td>
+              <td>Johnson</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <td>Bo</td>
+              <td>Nilsson</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Mike</td>
+              <td>Ross</td>
+              <td>35</td>
+            </tr>  
+        </tbody>  
+    </table>
+  </div>    
+</body>
+</html>
